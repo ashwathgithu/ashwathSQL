@@ -112,7 +112,7 @@ FROM authors
 GROUP BY author_name
 HAVING AVG((SELECT price FROM books_table WHERE author_id = authors.author_id)) > 15;
 
-#Select authors along with the count of their books, but only for authors whose average book price is greater than the overall average book price:
+#15.Select authors along with the count of their books, but only for authors whose average book price is greater than the overall average book price:
 
 SELECT author_name,
        (SELECT COUNT(*) FROM books_table WHERE author_id = authors.author_id) AS book_count
