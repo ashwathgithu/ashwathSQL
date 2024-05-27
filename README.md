@@ -1,13 +1,14 @@
-# This repository contains a SQL analysis project focused on a dataset related to books. The goal of this project is to perform various SQL queries and analyses on the dataset to extract meaningful insights about the books, authors, genres, and other relevant information.
+## This repository contains a SQL analysis project focused on a dataset related to books. The goal of this project is to perform various SQL queries and analyses on the dataset to extract meaningful insights about the books, authors, genres, and other relevant information.
 
 ## Dataset
 
 The dataset used in this project contains information about books, including details such as title, author, publication year, genre, and ratings.
 ## Files
 
-- dataset.csv: The raw dataset in CSV format.
-- schema.sql: SQL schema file containing the table structure for importing the dataset into a SQL database.
-- analysis_queries.sql: SQL queries for performing various analyses on the dataset.
+- Authors.xlsx: It contains raw data about Authors
+- Books_Table.csv: It contains raw data about Books
+- Genre.csv:It contains raw data about Genre
+- Ashwath.SQL.Analysis on book_data.sql: SQL queries for performing various analyses on the dataset.
 
 ## Analysis
 
